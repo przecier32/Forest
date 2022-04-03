@@ -1,9 +1,9 @@
 public class Forest {
 
-    int howMuch;
-    String whatTree;
+    public Integer howMuch;
+    public String whatTree;
 
-    Forest(int howMuch, String whatTree) {
+    public Forest(int howMuch, String whatTree) {
         this.howMuch = howMuch;
         this.whatTree = whatTree;
     }
@@ -12,7 +12,6 @@ public class Forest {
 
         System.out.println("W tym lesie jest " + howMuch + " drzew. I rosnie tam " + whatTree + ".");
     }
-
 
 
 }
